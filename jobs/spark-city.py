@@ -101,10 +101,10 @@ def main():
                 .start())
 
     vehicleDF = read_kakfa_topic('vehicle_data', vehicleSchema).alias('vehicle')
-    gpsDF = read_kakfa_topic('gps_data', vehicleSchema).alias('gps')
-    trafficDF = read_kakfa_topic('traffic_data', vehicleSchema).alias('traffic')
-    weatherDF = read_kakfa_topic('weather_data', vehicleSchema).alias('weather')
-    emergencyDF = read_kakfa_topic('emergency_data', vehicleSchema).alias('emergency')
+    gpsDF = read_kakfa_topic('gps_data', gpsSchema).alias('gps')
+    trafficDF = read_kakfa_topic('traffic_data', trafficSchema).alias('traffic')
+    weatherDF = read_kakfa_topic('weather_data', weatherSchema).alias('weather')
+    emergencyDF = read_kakfa_topic('emergency_data', emergencySchema).alias('emergency')
 
     # Join all dfs with id and timestamp col
     # joinedDf
