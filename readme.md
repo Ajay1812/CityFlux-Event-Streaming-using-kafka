@@ -6,6 +6,7 @@ CityFlux is a ⚡ real-time data streaming pipeline built to collect, process, a
 
 ## 🧠 Architecture Overview
 
+![diagram-export-4-7-2025-6_29_15-PM](https://github.com/user-attachments/assets/6057caa4-1d00-4b4a-b3d2-b01d2b68ad65)
 
 
 ---
