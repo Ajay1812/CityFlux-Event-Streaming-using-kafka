@@ -1,6 +1,6 @@
-# 🚦 CityFlux: Real-Time Event Streaming using Apache Kafka
+# 🚦 CityFlux: Real-Time Event Streaming using Apache Kafka & Spark
 
-CityFlux is a ⚡ real-time data streaming pipeline built to collect, process, and analyze urban mobility data such as 🚗 vehicle telemetry, 📍 GPS locations, 🌧️ weather conditions, 📷 traffic camera feeds, and 🚨 emergency alerts.
+CityFlux is a real-time event streaming solution that captures data from vehicles, GPS, weather, and emergency systems. 🚦 It processes these streams using Kafka and Spark, storing results in AWS for seamless querying and analysis. ☁️ With tools like Glue, Athena, and Redshift, CityFlux powers fast, scalable insights for smart city applications. 📊
 
 ---
 
